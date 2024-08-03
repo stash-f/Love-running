@@ -1,6 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser*/
 * {
     padding: 0;
@@ -20,11 +21,16 @@ body {
 
 /*header*/
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 h1 {
-    font-family: 'oswald' , sans-serif;
+    font-family: 'oswald', sans-serif;
 }
 
 /*main*/
